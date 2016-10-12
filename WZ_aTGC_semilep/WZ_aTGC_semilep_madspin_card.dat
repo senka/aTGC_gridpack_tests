@@ -19,6 +19,8 @@ set ms_dir ./madspingrid
  set max_weight_ps_point 400  # number of PS to estimate the maximum for each event
 # 
 
+set BW_cut 40 
+
 set max_running_process 1
 
 define q = u c d s b u~ c~ d~ s~ b~
