@@ -21,17 +21,12 @@ set ms_dir ./madspingrid
 
 set max_running_process 1
 
-define ell+ = e+ mu+
-define ell- = e- mu-
-define V = w+ w-
-define vl = ve vm
-define vl~ = ve~ vm~
+define q = u c d s b u~ c~ d~ s~ b~
 
 #dummy decay
 set onlyhelicity True
-#decay w+ > ta+ vt
-decay w+ > ell+ vl
-decay w- > ell- vl~
+
+decay z > q q
 
 # running the actual code
 launch
