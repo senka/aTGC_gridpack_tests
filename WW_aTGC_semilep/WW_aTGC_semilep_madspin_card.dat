@@ -25,7 +25,7 @@ set max_running_process 1
 define q = u c d s b u~ c~ d~ s~ b~
 
 #dummy decay
-set onlyhelicity True
+#set onlyhelicity True
 #decay w+ > ta+ vt
 decay w+ > q q
 decay w- > q q
