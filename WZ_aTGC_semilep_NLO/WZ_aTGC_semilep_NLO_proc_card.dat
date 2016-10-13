@@ -18,5 +18,5 @@ add process p p > ell+ vl z j $$ t t~ H [QCD] @1
 add process p p > ell- vl~ z $$ t t~ H [QCD] @2
 add process p p > ell- vl~ z j $$ t t~ H [QCD] @3
 
-output WZ_aTGC_semilep -nojpeg
+output WZ_aTGC_semilep_NLO -nojpeg
 

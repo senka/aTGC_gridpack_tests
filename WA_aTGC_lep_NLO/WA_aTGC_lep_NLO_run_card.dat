@@ -138,19 +138,19 @@
 # Cuts on the charged leptons (e+, e-, mu+, mu-, tau+ and tau-)        *
 # More specific cuts can be specified in SubProcesses/cuts.f           *
 #***********************************************************************
-  8.0  = ptl     ! Min lepton transverse momentum
+ 33.0  = ptl     ! Min lepton transverse momentum
   2.6  = etal    ! Max lepton abs(pseudo-rap) (a value .lt.0 means no cut)
   0.0  = drll    ! Min distance between opposite sign lepton pairs
   0.0  = drll_sf ! Min distance between opp. sign same-flavor lepton pairs
   0.0  = mll     ! Min inv. mass of all opposite sign lepton pairs
- 71.0  = mll_sf  ! Min inv. mass of all opp. sign same-flavor lepton pairs
+  4.0  = mll_sf  ! Min inv. mass of all opp. sign same-flavor lepton pairs
 #***********************************************************************
 # Photon-isolation cuts, according to hep-ph/9801442. When ptgmin=0,   *
 # all the other parameters are ignored.                                *
 # More specific cuts can be specified in SubProcesses/cuts.f           *
 #***********************************************************************
- 20.0  = ptgmin    ! Min photon transverse momentum
- -1.0  = etagamma  ! Max photon abs(pseudo-rap)
+ 12.0  = ptgmin    ! Min photon transverse momentum
+  2.6  = etagamma  ! Max photon abs(pseudo-rap)
   0.4  = R0gamma   ! Radius of isolation code
   1.0  = xn        ! n parameter of eq.(3.4) in hep-ph/9801442
   1.0  = epsgamma  ! epsilon_gamma parameter of eq.(3.4) in hep-ph/9801442
